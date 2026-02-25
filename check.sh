@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # this script purpose is to check if a file exists or not.
+# Works with fail-triggers
 
 set -e
 set -u
