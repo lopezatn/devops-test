@@ -1,5 +1,7 @@
+import sys
 
-filename = "app.log"
+
+filename = sys.argv[1]
 
 try:
   file = open(filename, "r")
