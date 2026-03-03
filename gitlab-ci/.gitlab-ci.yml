@@ -1,0 +1,20 @@
+variables:
+  APP_ENV: "production"
+
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  script:
+    - echo "bulding something"
+    - echo "Environment: $APP_ENV"
+  artifacts:
+    paths:
+        - build/
+
+test_job:
+  stage: test
+  script:
+    - echo "testing something"
