@@ -1,1 +1,1 @@
-A personal review of bash scripting and python skills.
+A personal review of bash and python skills for scripting.
